@@ -1,7 +1,10 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet, useNavigate } from 'react-router-dom'
 
 const Layout = () => {
+    const navigate = useNavigate();
+    // cuando yo quiera mandar a otra ruta
+    // navigate('/user/${id}/${nombre}')
     return (
         <>
             <nav>
