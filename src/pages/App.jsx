@@ -19,6 +19,7 @@ function App() {
     getUsers();
   }, [])
 
+  //esto se podria hacer con un useCallback
   const getUsers = async() => {
     const response = await api.get("/users")
     setUsersList(response.data)
