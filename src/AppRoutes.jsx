@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import App from './App';
-import Users from './Users';
-import UsersDetails from './UsersDetails';
+import App from './pages/App';
+import Users from './pages/Users';
+import UsersDetails from './pages/UsersDetails';
 import Layout from './Layout';
 
 const AppRoutes = () => {
